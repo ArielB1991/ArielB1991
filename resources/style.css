@@ -1,0 +1,134 @@
+.textosuper{
+    position: absolute; /* Establece la posición absoluta para que el texto se superponga a la imagen */
+    top: 10%; /* Coloca el texto en la mitad superior del contenedor */
+    left: 80%; /* Coloca el texto en el centro horizontal del contenedor */
+    transform: translate(-50%, -50%); /* Centra el texto tanto vertical como horizontalmente */
+    background-color: none; /* Fondo semitransparente para hacer que el texto sea legible */
+    color: white; /* Color del texto */
+    padding: 10px; /* Espacio alrededor del texto */
+    margin-top: 200px;
+}
+.imagenHeader img{
+    width: 100%;
+    height: 500px;
+    background-color: #333;
+}
+.card-group{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 60%;
+    
+ 
+}
+
+.navegador{
+    background-color: rgb(54, 54, 66);
+    height: 70px;
+    font-size:medium;
+    padding-left: 600px;
+    color: aliceblue;
+    width: 100%;
+}
+
+.logo img{
+    margin-block: -1%;
+    left: 10px;
+    position: absolute;
+    height: 80px;
+    
+}
+
+.card-steve{
+    width: 250px;
+    margin-inline: 100px;
+    border: 2px solid #c4c2c2;
+    margin-right: 1px;
+}
+
+.card-bill{
+    width: 250px;
+    margin-inline: 100px;
+    border: 2px solid #c4c2c2;
+    margin-right: 1px;
+}
+
+.card-ada{
+    width: 250px;
+    margin-inline: 100px;
+    border: 2px solid #c4c2c2;
+    margin-right: 1px;
+}
+
+h2{
+  position: relative;
+  text-align: center;
+}
+
+h4{
+    text-align: center;
+    opacity: 60%;
+}
+
+.col-md-8{
+   background-color: rgb(39, 37, 54);
+}
+
+nav ul {
+    list-style:georgian;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px; /* Espacio entre elementos de navegación */
+}
+
+nav ul li a {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: #b6b6b6; /* Cambia "#FF0000" al color que desees */
+}
+form button{
+    padding: 10px 20px; /* Espaciado interior */
+    background-color: #00ff2a; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border: none; /* Quita el borde */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    align-items: center;
+}
+
+#nombre{
+    width: 240px;
+}
+#apellido{
+    width: 240px;
+}
+.nombreApellido{
+    display: flex;
+    width: 100%;
+    text-align: center; /* Alinea el formulario al centro */
+    justify-content: space-between;      
+}
+#boton{
+    width: 500px;
+    background-color: #5eca70;
+}
+
+.formulario{
+    width: 500px;
+   margin-left: 40%; 
+}
+
+#lugar{
+    color: #fff;
+}
+
+.textoTarjeta{
+    color: #fff;
+}
+
+#sobreBoton{
+    margin-bottom: 10px;
+}

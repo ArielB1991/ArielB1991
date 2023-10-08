@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./resources/style.css">
+    <div>
+      <div class="logo"><img src="./resources/img/codoacodo.png" alt=""></div>
+      
+    </div>
+    
+    <nav>
+      <div class="navegador">
+        <ul class="nav justify-content-center">
+            <li class="nav-item";>
+              <a  aria-current="date" href="#">La conferencia</a>
+            </li>
+            <li class="nav-item">
+              <a  href="#Oradores">Los oradores</a>
+            </li>
+            <li class="nav-item">
+              <a  href="#lugar">El lugar y la fecha</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Conviertete">Conviertete en orador</a>
+            </li>
+            <li class="nav-item">
+              <a class="" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+      </div>
+    </nav>
+</head>
+<header>
+    <div class="imagenHeader">
+      <div class="textosuper"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque nam repellat dolor cum id assumenda, obcaecati repellendus dolore aut blanditiis quidem earum voluptatem laudantium rem consequuntur? Velit quo modi ex?
+      Enim aliquam numquam consequatur cupiditate, quidem dolores veritatis temporibus placeat non quis iusto natus harum sint eos veniam dicta ipsa? Officia, nihil similique ullam molestias odio dicta dolorem placeat ab.</p>></div>
+        <img src="./resources/img/ba1.jpg" alt="">
+    </div>
+</header>
+<body>
+    <div><h4>Conoce a los</h4></div>
+    <div><h2 id="Oradores">Oradores</h2></div>
+   <div>
+    <div class="card-group">
+        <div class="card-steve">
+          <img src="./resources/img/steve.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Steve Jobs</h5>
+            <p class="card-text">Esta es una tarjeta más amplia con texto de apoyo a continuación como introducción natural a contenido adicional. Este contenido es un poco más largo.</p>
+          </div>
+        </div>
+        <div class="card-bill" >
+          <img src="./resources/img/bill.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Título de la tarjeta</h5>
+            <p class="card-text">Esta tarjeta tiene texto de apoyo a continuación como una introducción natural a contenido adicional.</p>
+          </div>
+        </div>
+        <div class="card-ada">
+          <img src="./resources/img/ada.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Título de la tarjeta</h5>
+            <p class="card-text">Esta es una tarjeta más amplia con texto de apoyo a continuación como introducción natural a contenido adicional.</p>
+          </div>
+        </div>
+      </div>
+   </div>
+        <div>
+            <div class="card mb-3" style="width: 100%;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./resources/img/honolulu.jpg" class="img-fluid rounded-start" alt="honolulu">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 id="lugar">Bs As Octubre</h5>
+                      <p class="textoTarjeta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem aperiam deserunt quo, atque iure magnam! Blanditiis accusamus architecto eveniet voluptate in nobis assumenda quis praesentium animi magni magnam, neque at!
+                      Illum praesentium nobis tempore maxime qui eius ad vero autem commodi aliquam repellendus, animi ipsam veritatis, rerum quisquam doloremque cupiditate tenetur omnis possimus neque! Porro iusto id fugit dicta magnam?
+                      Qui doloremque, beatae quaerat numquam ad quo tenetur consectetur temporibus nemo. Explicabo praesentium voluptatibus reprehenderit facere labore, harum, tempore voluptatum reiciendis placeat autem necessitatibus aspernatur hic modi excepturi est minima.</p>
+                    <p><button type="button" class="btn btn-outline-light">Conoce mas</button></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div><h4 id="Conviertete">Conviertete en</h4></div>
+        <div><h2>Orador</h2></div>
+     
+    <form>  
+      <div class="formulario">
+        <div class="nombreApellido">
+        <div class="mb-3" >
+          <label id="nombre" for="name" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="name">
+        </div>
+        <div>
+          <label id="apellido" for="name" class="form-label">Apellido</label>
+          <input type="text" class="form-control" id="apellido">
+        </div>
+      </div>
+        <div> 
+          <textarea placeholder="Escribe tu mensaje aquí" class="form-control"  rows="3"></textarea>
+        </div>
+        <div id="sobreBoton" class="form-text">
+          Recuerda incluir un titulo para su charla.</div>
+        <button id="boton" type="button" class="btn btn-success">Enviar</button></div>
+      </form>
+</body>
+</html>
