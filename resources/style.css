@@ -132,3 +132,22 @@ form button{
 #sobreBoton{
     margin-bottom: 10px;
 }
+
+.piePagina{
+    background-color: rgb(1, 46, 83);
+    height: 70px ;
+    margin-top: 10px;
+    color: white;
+}
+
+.navFoot{
+    color: white;
+    text-decoration-line: none;
+    
+}
+
+.nav-item{
+    display: inline;
+    margin-right: 70px; /* Espacio entre elementos de navegación */
+
+}
