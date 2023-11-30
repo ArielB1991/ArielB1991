@@ -151,3 +151,48 @@ form button{
     margin-right: 70px; /* Espacio entre elementos de navegación */
 
 }
+.contenedor{
+    display: inline-flex;
+}
+
+
+.tarjetaPago{
+    display: flex; /* Utilizar flexbox para alinear las tarjetas */
+    justify-content:center; /* Distribuir el espacio entre las tarjetas de manera uniforme */
+    
+}
+
+#tarjetaIns{
+    height: 300px;
+    width: 500px; /* Establecer el ancho deseado para cada tarjeta */
+    border: 1px solid #ccc; /* Añadir un borde para mayor claridad */
+    padding: 10px; /* Agregar relleno para espacio interno */
+    margin: 1px; /* Agregar margen entre las tarjetas */
+    margin-right: 40px;
+}
+
+h1{
+    text-align: center;
+}
+
+.jsContenido{
+    display: flex;
+     justify-content: center; /* Alineación horizontal al centro */
+    align-items: center; /* Alineación vertical al centro */
+    height:100px; /* Hace que el contenedor ocupe toda la altura de la ventana */
+     margin-bottom: 50px;
+     margin-top: 30px;
+    
+    
+}
+
+#botonPago{
+    display: block;
+    margin: auto;
+    width: 450px;
+}
+#cantidadE{
+   
+    width: 300px;
+    box-sizing: border-box;
+}

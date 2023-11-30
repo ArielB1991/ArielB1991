@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>pago</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./resources/style.css">
+    <nav>
+      <div class="navegador">
+        <ul class="nav justify-content-center">
+            <li class="nav-item";>
+              <a  aria-current="date" href="#">La conferencia</a>
+            </li>
+            <li class="nav-item">
+              <a  href="#Oradores">Los oradores</a>
+            </li>
+            <li class="nav-item">
+              <a  href="#lugar">El lugar y la fecha</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Conviertete">Conviertete en orador</a>
+            </li>
+            <li class="nav-item">
+              <a class="" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+      </div>
+    </nav>
+</head>s
+<body>
+
+<div class="tarjetaPago">
+  <div class="card border-danger mb-3" style="max-width: 18rem;" id="tarjetaIns">
+    <div class="card-header">Header</div>
+    <div class="card-body text-danger">
+      <h5 class="card-title">Danger card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+  </div>
+  <div class="card border-warning mb-3" style="max-width: 18rem;" id="tarjetaIns">
+    <div class="card-header">Header</div>
+    <div class="card-body">
+      <h5 class="card-title">Warning card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+  </div>
+  <div class="card border-info mb-3" style="max-width: 18rem;" id="tarjetaIns">
+    <div class="card-header">Header</div>
+    <div class="card-body">
+      <h5 class="card-title">Info card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+  </div>
+</div>
+
+  <h4 id="subPago">VENTA</h>
+  <h1 id="tituloPago">VALOR DE TICKET $200</h1>
+  <form>  
+    <div class="formulario">
+      <div class="nombreApellido">
+      <div class="mb-3" >
+        <label id="nombre" for="name" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="name">
+      </div>
+      <div>
+        <label id="apellido" for="name" class="form-label">Apellido</label>
+        <input type="text" class="form-control" id="apellido">
+      </div>
+    </div>
+      <div> 
+        <label id="email" for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email">
+      </div>
+      </div>
+    </form>
+    <div class="jsContenido">
+    <label for="precioEntrada" id="precioEntrada"></label>
+    <br>
+    <div  id?  class="col-md-2">
+    <label   for="cantidadEntradas">Cantidad de entradas</label>
+    <input type="number" id="cantidadEntradas" placeholder="Ingrese la cantidad"></div>
+    <br>
+      <div  class="col-md-2">
+    <label for="descuentoTipo">Categoria</label><br> <select id="descuentoTipo">
+   
+        <option>Elije tu opción</option>
+        <option value="10">Estudiante</option>
+        <option value="15">Trainee</option>
+        <option value="20">Junior</option>
+    </select></div>
+    <br>
+  </div>
+    <button id="botonPago" class="btn btn-success" onclick="calcularDescuento()">Resumen</button>
+  </div><br>
+    <h2 class="totalPagar">Total a pagar: $<span id="total"></span></h2>
+</body>
+<script src="/js/codigo.js"></script>
+<footer class="piePagina">
+  <ul class="nav justify-content-center">
+  <li class="nav-item">
+    <a class="navFoot" href="#">Preguntas Frecuentes</a>
+  </li>
+  <li class="nav-item">
+    <a class="navFoot" href="#">Contáctanos</a>
+  </li>
+  <li class="nav-item">
+    <a class="navFoot" href="#">Prensa</a>
+  </li>
+  <li class="nav-item">
+    <a class="navFoot" href="#">Conferencia</a>
+  </li>
+  <li class="nav-item">
+    <a class="navFoot" href="#">Terminos y condiciones</a>
+  </li>
+  <li class="nav-item">
+    <a class="navFoot" href="#">Privacidad</a>
+  </li>
+  
+</ul>
+</footer>
+</html>
